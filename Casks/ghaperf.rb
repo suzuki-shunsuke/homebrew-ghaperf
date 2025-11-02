@@ -3,7 +3,7 @@ cask "ghaperf" do
   name "ghaperf"
   desc "ghaperf is a CLI to analyze the performance of GitHub Actions using GitHub API and raw job logs"
   homepage "https://github.com/suzuki-shunsuke/ghaperf"
-  version "0.1.0"
+  version "0.1.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,18 +14,18 @@ cask "ghaperf" do
   on_macos do
     on_arm do
       url "https://github.com/suzuki-shunsuke/ghaperf/releases/download/v#{version}/ghaperf_darwin_arm64.tar.gz"
-      sha256 "18e0ec5f933f2f12043af0e0e3b4f5c64956b71f1d482465efbfe174d50959dc"
+      sha256 "7682ab688994be6853f504bb37045512e84d993c2780f52b689d03ac6a3bcc3b"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/suzuki-shunsuke/ghaperf/releases/download/v#{version}/ghaperf_linux_amd64.tar.gz"
-      sha256 "f019e9b6c52ace7ba846029375206ce5af553ce3b221ffc6cc0f153fb05c66fe"
+      sha256 "b3939bd17d5d49417aa43cf33c012586caf1a45ce4c395e299b4adda1efc554c"
     end
     on_arm do
       url "https://github.com/suzuki-shunsuke/ghaperf/releases/download/v#{version}/ghaperf_linux_arm64.tar.gz"
-      sha256 "8dac7fabfe5eb95c436206f7324173d539dd97eee34dce2e23873ee7923d63ac"
+      sha256 "8599b73c848747613c86e59e4a0b9e03b5bd0e5bc703738c2187778b4ab56575"
     end
   end
 
